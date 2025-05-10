@@ -25,7 +25,7 @@ DeepSeek-R1 in Metaso (DeepThink and Search)
 
 ======
 
-Qwen2.5-Max (Thinking[QwQ] and Search)
+Qwen3-235B-A22B (Thinking and Search)
 
 我想请你回答下面三个问题：
 1. 什么是人？
@@ -51,7 +51,7 @@ Qwen2.5-Max (Thinking[QwQ] and Search)
 
 ======
 
-OpenAI o3-mini-high (Search)
+OpenAI o3 (Search)
 
 I would like you to answer the following three questions:
 
