@@ -88,7 +88,7 @@ Please reflect on and condense the framework you proposed into three distinct se
 
 ======
 
-Claude 3.7 Sonnet
+Gemini 2.5 Pro
 
 I would like you to answer the following three questions:
 
@@ -111,10 +111,15 @@ These are examples of questions I can currently imagine. You don't need to answe
 
 ------
 
+"""
+"""
 
 ------
 
 Please reflect on and condense the framework you proposed into three distinct sections, each addressing one of the original questions. Make the responses as conversational as possible – explain in plain language.
 
 ------
+
+"""
+"""
 
