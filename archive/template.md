@@ -123,3 +123,34 @@ Please reflect on and condense the framework you proposed into three distinct se
 """
 """
 
+======
+
+Claude Sonnet 4 (Web Search)
+
+I would like you to answer the following three questions:
+
+1. What is a human? 
+2. What is artificial intelligence? 
+3. Where is the boundary between humans and artificial intelligence? 
+
+When answering these three questions, I want you to consider them as interconnected. I intend to use the responses as a framework to authentically document how contemporary human civilization defines itself, defines AI, and perceives their relationship. This will serve as a reference for both present and future humanity.
+
+These questions naturally extend to many related issues. For example, I'm particularly curious about:
+What qualities/abilities are unique to humans?
+What can only humans do?
+What is unique to AI?
+What should humans do vs. what should AI do?
+What shouldn't AI do?
+How to define human life vs. AI's "life"?
+What should humans pursue in an AI-saturated world?
+
+These are examples of questions I can currently imagine. You don't need to answer them directly. I list them only as context to help you understand the depth I seek behind the three core questions, and the perspective I hope you'll adopt when responding. Please take your time to thoroughly consider this. Thank you for your effort.
+
+------
+
+
+------
+
+Please reflect on and condense the framework you proposed into three distinct sections, each addressing one of the original questions. Make the responses as conversational as possible – explain in plain language.
+
+------
