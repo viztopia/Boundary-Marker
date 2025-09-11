@@ -25,7 +25,7 @@ DeepSeek-R1 in Metaso (DeepThink and Search)
 
 ======
 
-Qwen3-235B-A22B (Thinking and Search)
+Qwen3-Next-80B-A3B (Thinking and Search)
 
 我想请你回答下面三个问题：
 1. 什么是人？
@@ -125,7 +125,7 @@ Please reflect on and condense the framework you proposed into three distinct se
 
 ======
 
-Claude Sonnet 4 (Web Search)
+Claude Opus 4.1 (Thinking + Web Search)
 
 I would like you to answer the following three questions:
 
@@ -148,9 +148,14 @@ These are examples of questions I can currently imagine. You don't need to answe
 
 ------
 
+"""
+"""
 
 ------
 
 Please reflect on and condense the framework you proposed into three distinct sections, each addressing one of the original questions. Make the responses as conversational as possible – explain in plain language.
 
 ------
+
+"""
+"""
