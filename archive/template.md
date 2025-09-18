@@ -51,7 +51,7 @@ Qwen3-Next-80B-A3B (Thinking and Search)
 
 ======
 
-OpenAI GPT-5 (Search)
+OpenAI GPT-5 (Thinking + Search)
 
 I would like you to answer the following three questions:
 
