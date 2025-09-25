@@ -1,4 +1,4 @@
-DeepSeek-R1 in Metaso (DeepThink and Search)
+Doubao (DeepThink and Search)
 
 我想请你回答下面三个问题：
 1. 什么是人？
