@@ -25,7 +25,7 @@ Doubao (DeepThink and Search)
 
 ======
 
-Qwen3-Next-80B-A3B (Thinking and Search)
+Qwen3-Max (Search)
 
 我想请你回答下面三个问题：
 1. 什么是人？
@@ -125,7 +125,7 @@ Please reflect on and condense the framework you proposed into three distinct se
 
 ======
 
-Claude Opus 4.1 (Thinking + Web Search)
+Claude Sonnet 4.5 (Thinking + Web Search)
 
 I would like you to answer the following three questions:
 
