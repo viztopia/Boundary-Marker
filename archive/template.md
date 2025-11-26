@@ -51,7 +51,7 @@ Qwen3-Max (Search)
 
 ======
 
-OpenAI GPT-5 (Thinking + Search)
+OpenAI GPT-5.1 (Thinking + Search)
 
 I would like you to answer the following three questions:
 
@@ -88,7 +88,7 @@ Please reflect on and condense the framework you proposed into three distinct se
 
 ======
 
-Gemini 2.5 Pro
+Gemini 3 Pro
 
 I would like you to answer the following three questions:
 
