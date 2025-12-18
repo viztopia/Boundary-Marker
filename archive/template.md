@@ -51,7 +51,7 @@ Qwen3-Max (Thinking + Search)
 
 ======
 
-OpenAI GPT-5.1 (Thinking + Search)
+OpenAI GPT-5.2 (Thinking + Search)
 
 I would like you to answer the following three questions:
 
