@@ -1,0 +1,38 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { TimelineApp } from '../components/TimelineApp';
+import { getCollection } from 'astro:content';
+import { parseArchive } from '../utils/parser';
+
+const rawArchives = await getCollection('archives');
+
+const processedData = rawArchives.map(entry => {
+  // entry.id is the filename (e.g. "20250129.md")
+  return parseArchive(entry.id, entry.body);
+}).sort((a, b) => b.date.localeCompare(a.date));
+
+const PREFERRED_ORDER = ['OpenAI', 'Claude', 'Gemini', 'Doubao', 'Qwen', 'DeepSeek'];
+
+const allFamilies = new Set<string>();
+processedData.forEach(d => Object.values(d.models).forEach(m => allFamilies.add(m.family)));
+const uniqueFamilies = Array.from(allFamilies).sort((a, b) => {
+    const idxA = PREFERRED_ORDER.indexOf(a);
+    const idxB = PREFERRED_ORDER.indexOf(b);
+    // If both are in the list, sort by index
+    if (idxA !== -1 && idxB !== -1) return idxA - idxB;
+    // If only A is in list, A comes first
+    if (idxA !== -1) return -1;
+    // If only B is in list, B comes first
+    if (idxB !== -1) return 1;
+    // Otherwise alphabetical
+    return a.localeCompare(b);
+});
+---
+
+<Layout title="Boundary Marker">
+  <TimelineApp 
+    client:load 
+    data={processedData} 
+    allFamilies={uniqueFamilies} 
+  />
+</Layout>
