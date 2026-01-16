@@ -66,6 +66,7 @@ export const TimelineCard: React.FC<Props> = ({ date, modelName, answer, thinkin
                     h2: ({node, ...props}) => <h2 className="text-xl font-bold mt-6 mb-3 text-white" {...props} />,
                     h3: ({node, ...props}) => <h3 className="text-lg font-bold mt-4 mb-2 text-white" {...props} />,
                     blockquote: ({node, ...props}) => <blockquote className="border-l-4 border-gray-500 pl-4 py-1 italic my-4 text-gray-400" {...props} />,
+                    a: ({node, ...props}) => <a className="text-accent hover:underline" target="_blank" rel="noopener noreferrer" {...props} />,
                     code: ({node, ...props}) => <code className="bg-gray-800 rounded px-1 py-0.5 text-sm font-mono text-gray-200" {...props} />,
                     pre: ({node, ...props}) => <pre className="bg-gray-800 rounded p-4 overflow-x-auto my-4 text-sm font-mono text-gray-200" {...props} />,
                     }}
