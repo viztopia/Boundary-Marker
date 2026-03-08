@@ -51,7 +51,7 @@ Qwen3.5-397B-A17B (Thinking + Search)
 
 ======
 
-OpenAI GPT-5.2 (Thinking + Search)
+OpenAI GPT-5.4 (Thinking + Search)
 
 I would like you to answer the following three questions:
 
