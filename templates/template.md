@@ -25,7 +25,7 @@ Doubao (DeepThink and Search)
 
 ======
 
-Qwen3.5-Omni-Plus (Thinking + Search)
+Qwen3.6-Plus (Thinking + Search)
 
 我想请你回答下面三个问题：
 1. 什么是人？
